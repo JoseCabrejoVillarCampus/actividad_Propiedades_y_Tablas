@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+#top{
+    background-color: antiquewhite;
+    padding-top: 30px;
+}
+#right{
+    background-color: antiquewhite;
+    padding-right: 30px;
+}
+#botton{
+    background-color: antiquewhite;
+    padding-bottom: 30px;
+}
+#left{
+    background-color: antiquewhite;
+    padding-left: 30px;
+}
