@@ -8,63 +8,78 @@
     <title>PROPIEDADES CSS</title>
 </head>
 <body>
-    <h1>Propiedades Del Background</h1><br>
-    <p>Las propiedades de fondo CSS nos dejan controlar el tamaño<br> 
-    y las propiedades de las imágenes, lo que nos permite hacer imágenes<br> 
-    responsive para pequeñas y grandes pantallas. Esto, a su vez, nos<br> 
-    ayuda a crear sitios web responsive</p>
-    <div id="img">
-        <h2 class="h2">background-image:</h2>
-        <p class="p" >La propiedad CSS background-image establece una<br>
-        o más imágenes de fondo para un elemento.</p>
+    <h1>Propiedades Border</h1><br>
+    <p>La propiedad border permite definir en una única regla todos los<br> 
+    bordes de los elementos seleccionados. Se puede utilizar border para<br> 
+    definir el o los valores siguientes: border-width, border-style, border-color</p>
+    <div id="block">
+        <h2 class="h2">border-block:</h2>
+        <p class="p" >La propiedad de CSS border-block es una propiedad<br>
+        abreviada para establecer los valores lógicos individuales del<br> 
+        borde de bloque en un solo lugar en la hoja de estilos.</p>
     </div>
-    <div id="size">
-        <h2 class="h2">background-size:</h2>
-        <p class="p" >nos permite asignar un nuevo valor de<br>
-        ancho y alto para nuestras imágenes de acuerdo al tamaño de la pantalla.</p>
-    </div>  
-    <div id="pos">
-        <h2 class="h2">background-position:</h2>
-        <p class="p" >nos permite decir al navegador donde poner la imagen en la pantalla.</p>
+    <div id="blockcolor">
+        <h2 class="h2">border-block-color:</h2>
+        <p class="p" >define el color del borde de bloque de un elemento,<br> 
+        que se asigna al color del borde físico dependiendo de los elementos<br> 
+        de modo de escrituro, direccionalidad y la orientación del texto. Esto<br> 
+        corresponde a las propiedades border-top-color y border-bottom-color, o<br> 
+        border-right-color (en-US) y border-left-color dependiendo de los valores<br> 
+        definidos para writing-mode, direction, y text-orientation.</p>
     </div>
-    <div id="att">
-        <h2 class="h2">background-attachment:</h2>
-        <p class="p">determina si la posición de la imagen de fondo será fija dentro<br> 
-        de la pantalla o se desplazará con su bloque contenedor.</p>
+    <div id="color">
+        <h2 class="h2">border-color:</h2>
+        <p class="p" >Establece el color de algunos o todos los bordes de los elementos</p>
     </div>
-    <div>
-        <h2 class="h2" id="color">background-color:</h2>
-        <p class="p" >Es una propiedad de CSS que define el color de fondo de un<br> 
-        elemento, puede ser el valor de un color o la palabra clave</p>
-    </div>      
-    <div id="repeat">
-        <h2 class="h2">background-repeat:</h2>
-        <p class="p" >define como se repiten los fondos del documento. Un fondo<br> 
-        de imagen puede ser repetido sobre el eje horizontal, el eje vertical, ambos ejes,<br> 
-        o no estar repetido.</p><br>
-        <div>valore:<br>
-            background-repeat: repeat-x;<br>
-            background-repeat: repeat-y;<br>
-            background-repeat: repeat;<br>
-            background-repeat: space;<br>
-            background-repeat: round;<br>
-            background-repeat: no-repeat;</div>
+    <div id="style">
+        <h2 class="h2">border-style:</h2>
+        <p class="p" >Establece el estilo de algunos o todos los bordes de los elementos</p>
+        <ul>
+            <li>none</li>
+            <li>dotted</li>
+            <li>solid</li>
+            <li>groove</li>
+            <li>inset</li>
+            <li>inherit</li>
+            <li>hidden</li>
+            <li>dashed</li>
+            <li>double</li>
+            <li>ridge</li>
+            <li>outset</li>
+        </ul>
     </div>
-    <div id="ori">
-        <h2 class="h2">background-origin:</h2>
-        <p class="p">La propiedad background-origin especifica el área de origen de un<br> 
-        fondo o imagen en determinada caja. para que la propiedad background-position calcule la<br> 
-        posición de inicio de un fondo o imagen definida por la propiedad background-image.</p>
+    <div id="top">
+        <h2 class="h2">border-top:</h2>
+        <p class="p" >Establece algunas o todas las propiedades del borde superior de los elementos</p>
     </div>
-    <div id="clip">
-        <h2 class="h2">background-clip:</h2>
-        <p class="p">La propiedad CSS background-clip especifica si el fondo de un elemento,<br> 
-        ya sea el color o imagen, se extiende por debajo su borde.<br>
-        Si la imagen o color de fondo no esta definido, esta propiedad<br>
-        solo tendrá un efecto visual cuando el borde tenga regiones transparentes<br>
-        o regiones parcialmente opacas (debido a border-style o border-image);<br> 
-        de lo contrario el borde cubre la diferencia.</p>
+    <div id="right">
+        <h2 class="h2">border-right:</h2>
+        <p class="p" >Establece algunas o todas las propiedades del borde derecho de los elementos</p>
     </div>
+</div>
+<div id="bottom">
+    <h2 class="h2">border-bottom:</h2>
+    <p class="p" >Establece algunas o todas las propiedades del borde inferior de los elementos</p>
+</div>
+</div>
+<div id="left">
+    <h2 class="h2">border-left:</h2>
+    <p class="p" >Establece algunas o todas las propiedades del borde izquierdo de los elementos</p>
+</div>
+</div>
+<div id="width">
+    <h2 class="h2">border-width:</h2>
+    <p class="p" >Establece la anchura de algunos o todos los bordes de los elementos</p>
+</div>
+<div id="right">
+    <h2 class="h2">border-radius:</h2>
+    <p class="p" >Nos permite redondear esquinas</p>
+</div>
+<div id="space">
+    <h2 class="h2">border-spacing:</h2>
+    <p class="p" >Distancia entre las celdas adyacentes de la tabla</p>
+</div>
+
 </body>
 </html>
 
