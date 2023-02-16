@@ -1,19 +1,14 @@
-body{
-    background-color: aquamarine;
+body{background-color: aquamarine;}
+
+#img{
+    background-image: url(./img/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+    background-size: 30px;
+    background-repeat: repeat;
+    color:aliceblue
 }
-#top{
-    background-color: antiquewhite;
-    padding-top: 30px;
-}
-#right{
-    background-color: antiquewhite;
-    padding-right: 30px;
-}
-#botton{
-    background-color: antiquewhite;
-    padding-bottom: 30px;
-}
-#left{
-    background-color: antiquewhite;
-    padding-left: 30px;
+#pos{
+    background-image: url(./img/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+    background-position: 20px;
+    background-attachment: fixed;
+    color:aliceblue
 }

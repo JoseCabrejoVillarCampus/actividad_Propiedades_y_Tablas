@@ -8,28 +8,63 @@
     <title>PROPIEDADES CSS</title>
 </head>
 <body>
-    <h1>Rellenos</h1><br>
-    <p>El padding es cada uno de los espacios de relleno horizontales<br> 
-    y verticales de un elemento.<br>
-    Se aplica a todos los elementos excepto algunos elementos de<br> 
-    tablas como grupos de cabeceras y grupos de pies de tabla<br>
-    CSS define cuatro propiedades para controlar:<br></p>
-    <div>
-        <h2 class="h2">padding-top:</h2>
-        <p class="p" id="top">Respecto a la parte superior</p>
+    <h1>Propiedades Del Background</h1><br>
+    <p>Las propiedades de fondo CSS nos dejan controlar el tamaño<br> 
+    y las propiedades de las imágenes, lo que nos permite hacer imágenes<br> 
+    responsive para pequeñas y grandes pantallas. Esto, a su vez, nos<br> 
+    ayuda a crear sitios web responsive</p>
+    <div id="img">
+        <h2 class="h2">background-image:</h2>
+        <p class="p" >La propiedad CSS background-image establece una<br>
+        o más imágenes de fondo para un elemento.</p>
+    </div>
+    <div id="size">
+        <h2 class="h2">background-size:</h2>
+        <p class="p" >nos permite asignar un nuevo valor de<br>
+        ancho y alto para nuestras imágenes de acuerdo al tamaño de la pantalla.</p>
     </div>  
-    <div>
-        <h2 class="h2">padding-right:</h2>
-        <p class="p" id="right">Respecto a la parte derecha</p>
+    <div id="pos">
+        <h2 class="h2">background-position:</h2>
+        <p class="p" >nos permite decir al navegador donde poner la imagen en la pantalla.</p>
+    </div>
+    <div id="att">
+        <h2 class="h2">background-attachment:</h2>
+        <p class="p">determina si la posición de la imagen de fondo será fija dentro<br> 
+        de la pantalla o se desplazará con su bloque contenedor.</p>
     </div>
     <div>
-        <h2 class="h2">padding-bottom:</h2>
-        <p class="p" id="botton">Respecto a la parte inferior</p>
-    </div>
-    <div>
-        <h2 class="h2">padding-left:</h2>
-        <p class="p" id="left">Respecto a la parte izquierda</p>
+        <h2 class="h2" id="color">background-color:</h2>
+        <p class="p" >Es una propiedad de CSS que define el color de fondo de un<br> 
+        elemento, puede ser el valor de un color o la palabra clave</p>
     </div>      
+    <div id="repeat">
+        <h2 class="h2">background-repeat:</h2>
+        <p class="p" >define como se repiten los fondos del documento. Un fondo<br> 
+        de imagen puede ser repetido sobre el eje horizontal, el eje vertical, ambos ejes,<br> 
+        o no estar repetido.</p><br>
+        <div>valore:<br>
+            background-repeat: repeat-x;<br>
+            background-repeat: repeat-y;<br>
+            background-repeat: repeat;<br>
+            background-repeat: space;<br>
+            background-repeat: round;<br>
+            background-repeat: no-repeat;</div>
+    </div>
+    <div id="ori">
+        <h2 class="h2">background-origin:</h2>
+        <p class="p">La propiedad background-origin especifica el área de origen de un<br> 
+        fondo o imagen en determinada caja. para que la propiedad background-position calcule la<br> 
+        posición de inicio de un fondo o imagen definida por la propiedad background-image.</p>
+    </div>
+    <div id="clip">
+        <h2 class="h2">background-clip:</h2>
+        <p class="p">La propiedad CSS background-clip especifica si el fondo de un elemento,<br> 
+        ya sea el color o imagen, se extiende por debajo su borde.<br>
+        Si la imagen o color de fondo no esta definido, esta propiedad<br>
+        solo tendrá un efecto visual cuando el borde tenga regiones transparentes<br>
+        o regiones parcialmente opacas (debido a border-style o border-image);<br> 
+        de lo contrario el borde cubre la diferencia.</p>
+    </div>
 </body>
 </html>
 
