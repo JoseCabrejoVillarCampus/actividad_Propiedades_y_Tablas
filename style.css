@@ -1,0 +1,54 @@
+table,caption, thead,tr, th, td{
+    border: solid gold;
+}
+caption{
+    height: 35px;
+    color: gold;
+    background-color: black;
+    text-decoration:underline overline;
+    text-transform: uppercase;
+}
+.Sk{
+    padding-top: 18px;
+}
+table{
+    background-image: url(./img/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+th{
+    color: white;
+}
+td{
+    border-color: tomato;
+    border-radius: 5px; 
+}
+.title{
+    background-color: rgba(0, 0, 0, 0.664);
+    border-color: hotpink;
+}
+
+.num{
+    background-color: rgba(0, 0, 0, 0.664);
+    border-color: aqua;
+}
+.items{
+    background-color: rgba(0, 0, 0, 0.562);
+    font-weight: bold;
+    color: rgb(144, 66, 184);
+    text-align: center;
+}
+.total{
+    background-color: rgba(137, 43, 226, 0.575);
+}
+.t2{
+    
+}
+.total1{
+    background-color: rgba(54, 112, 112, 0.432);
+    border-color: fuchsia;
+    color: aquamarine;
+    border-radius: 0%;
+    font-weight: bold;
+    text-align: center;
+}
