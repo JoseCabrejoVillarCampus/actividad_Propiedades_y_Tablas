@@ -1,8 +1,12 @@
+body{
+    background-image: url(./img/521477.jpg);
+}
+
 table,caption, thead,tr, th, td{
     border: solid gold;
 }
 caption{
-    height: 35px;
+    height: 55px;
     color: gold;
     background-color: black;
     text-decoration:underline overline;
